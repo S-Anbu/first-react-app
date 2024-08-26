@@ -1,12 +1,12 @@
 {
-  "homepage": "https://s-anbu.github.io/first-react-app/",
+  "homepage": "https://s-anbu.github.io/first-react-app",
   "name": "myapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
